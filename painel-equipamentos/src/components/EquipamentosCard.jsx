@@ -8,12 +8,15 @@ const EquipamentoCard = ({ equipamento }) => {
     };
 
     return(
-        <div className="card">        
-            <h3>{equipamento.nome}</h3>
-            <h5>{equipamento.funcao}</h5>
-            <p>
-                Status: <b style={{color: corStatus[equipamento.status]}}>  {equipamento.status}</b>
-            </p>
+        <div className="card">
+            <img className="imagem" src={equipamento.image} alt={equipamento.nome} />
+            <div className="card-info">        
+                <h3>{equipamento.nome}</h3>
+                <h5>{equipamento.funcao}</h5>
+                <p>
+                    Status: <b style={{color: corStatus[equipamento.status]}}> {equipamento.status}</b>
+                </p>
+            </div>
         </div>
 
     );

@@ -15,13 +15,30 @@
     padding: 16px;
     border-radius: 8px;
     background-color: #E0E1DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1{
     color: #E0E1DD;
     background-image: url("../image/industria.jpg");
+    border-radius: 10px;
     padding: 40px;
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);;
+}
+
+.imagem{
+    background-position: center;  
+    background-repeat: no-repeat; 
+    width: 100%;                  /* Ocupa a largura total do container */
+    max-width: 300px;             /* Define um limite máximo */
+    height: 200px;                /* Altura fixa */
+    display: flex;
+    object-fit: cover;            /* Corta a imagem sem distorcer para preencher a caixa */
+    border-radius: 12px;          /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
 }
