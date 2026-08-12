@@ -1,0 +1,27 @@
+
+.principal{
+    background-color: #0D1B2A;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 8.25%;
+}
+
+.card{
+    border: 4px;
+    border-style: solid;
+    border-color: #778DA9;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #E0E1DD;
+}
+
+h1{
+    color: #E0E1DD;
+    background-image: url("../image/industria.jpg");
+    padding: 40px;
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
